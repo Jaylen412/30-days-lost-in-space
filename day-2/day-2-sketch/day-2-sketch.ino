@@ -1,4 +1,4 @@
-#define CABIN_LIGHTS 12  //12 represents the location of our LED in pin 12
+#define CABIN_LIGHTS 11  //11 represents the location of our LED in pin 12
 
 void setup() {
   // put your setup code here, to run once:
@@ -8,7 +8,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(CABIN_LIGHTS, HIGH);
-  delay(1000)
+  delay(3000);
   digitalWrite(CABIN_LIGHTS, LOW);
-  delay(1000)
+  delay(3000);
 }
